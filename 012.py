@@ -2,7 +2,7 @@ import random
 
 # making a random product list 
 Q = ["A" , "C" , "B" , "R"]
-Pr = random.choices(Q, k=20)
+Pr = random.choices(Q, k=30)
 Pr.append("*")
 
 #for test if loop stops after "*" the last R doesn't count
